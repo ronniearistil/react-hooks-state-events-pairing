@@ -1,23 +1,15 @@
 const video = {
   id: 1,
-  title: "React Today and Tomorrow and 90% Cleaner React With Hooks",
-  embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-  views: "2,000,123",
-  createdAt: "Oct 26, 2018",
-  upvotes: 1200,
-  downvotes: 300,
+  title: "React Tutorial",
+  embedUrl: "https://www.youtube.com/embed/dpw9EHDh2bM", // Correct URL for the video
+  views: 1200,
+  createdAt: "Oct 15, 2024",
+  upvotes: 100,
+  downvotes: 15,
   comments: [
-    {
-      id: 1,
-      user: "Ronnie",
-      comment: "This is a great video!"
-    },
-    {
-      id: 2,
-      user: "Aristil",
-      comment: "Very informative, thank you!"
-    }
-  ]
+    { id: 1, user: "John", comment: "Great video!" },
+    { id: 2, user: "Jane", comment: "Very helpful, thanks!" },
+  ],
 };
 
 export default video;

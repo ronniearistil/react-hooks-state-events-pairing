@@ -5,7 +5,7 @@ import CommentSection from "./CommentSection";
 
   function App() {
     console.log("Here's your data:", video);
-    
+
     const [showComments, setShowComments] = useState(true);
   
     const toggleComments = () => {
